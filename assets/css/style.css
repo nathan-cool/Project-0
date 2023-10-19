@@ -24,7 +24,7 @@ header {
         width: 100%;
         box-shadow: 0 2px 2px #3a3a3a;
         display: flex;
-            justify-content: space-between;
+        justify-content: space-between;
             align-items: baseline;
 }
 
@@ -63,24 +63,29 @@ nav {
     padding: 0 1rem;
     display: none;
     /*Tells perent to start at the bottom, where as 0% would be the top of the parent */
-        top: 100%;
+    top: 100%;
+    
 }
     
         /*Toggle nav*/
-        #nav-toggle:checked~nav {
-            display: block;
-        }
+#nav-toggle:checked~nav {
+    display: block;
     
-        #nav-toggle {
-            display: none;
+}
+    
+#nav-toggle {
+    display: none;
+}
         
+    
         
-                .nav-toggle-label {
-                    font-size: 2rem;
-        }
+.nav-toggle-label {
+    font-size: 2rem;
+}
+        
 /*Main Content*/
 main {
-    background-color: tomato;
+    background-color: rgb(255, 99, 71);
     /* 
        The CSS property 'flex' with the value 'flex: 1 0 auto;' does the following:
        - 'flex-grow: 1' allows the item to grow and expand to fill available space.
@@ -88,6 +93,7 @@ main {
        - 'flex-basis: auto' sizes the item based on its content.
     */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
