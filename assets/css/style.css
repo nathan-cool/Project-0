@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
-    font-family: "roboto", "Helvetica Neue", Helvetica, Arial
+    font-family:"Oswald", "sans-serif";
 }
 /* Header */
 header {
@@ -41,7 +41,7 @@ h1 {
 }
 
 #menu {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
     font-size: 110%;
 }
@@ -82,7 +82,8 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-        
+
+
 /*Main Content*/
 main {
     background-color: rgb(255, 99, 71);
@@ -93,10 +94,39 @@ main {
        - 'flex-basis: auto' sizes the item based on its content.
     */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 49px;
 }
 
 /*Footer*/
 footer {
     background-color: bisque;
 }
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+      
+        padding: 0 1rem;
+
+    }
+    #menu{
+        display: flex;
+        
+
+    }
+    a{
+    margin-right: 15px;
+    }
+    
+    
+    .nav-toggle-label{
+        display: none;
+
+    }
+    
+    
+}
+
