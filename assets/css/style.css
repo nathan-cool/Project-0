@@ -37,6 +37,11 @@ h1 {
         color: #252525;
 }
 
+#menu {
+    letter-spacing: 4px;
+    list-style-type: none;
+    font-size: 110%;
+}
 /*Main Content*/
 main {
     background-color: tomato;
