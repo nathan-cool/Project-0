@@ -121,7 +121,7 @@ footer {
     
   }
   #menu {
-    display: ;
+
     flex-direction: row;
     padding: none;
     margin: none;
@@ -134,4 +134,12 @@ footer {
   .nav-toggle-label {
     display: none;
   }
+}
+
+@media screen and (min-width: 992px) {
+    a:hover{
+        color: rgb(255, 99, 71);
+      
+      
+    }
 }
