@@ -116,21 +116,23 @@ footer {
 #footerlinks{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 
 #footerlinks li{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+    padding: 12px;
     
 }
 
 #footerlinks li a{
-    text-decoration: none;
-    color: #3a3a3a;
+    text-decoration: none; 
     display: flex;
+    color: #3a3a3a;
+    font-size: 120%;
+
 }
 
 @media screen and (min-width: 768px) {
