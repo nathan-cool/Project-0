@@ -106,7 +106,31 @@ main {
 
 /*Footer*/
 footer {
-  background-color: bisque;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+
+}
+
+#footerlinks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#footerlinks li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#footerlinks li a{
+    text-decoration: none;
+    color: #3a3a3a;
+    display: flex;
 }
 
 @media screen and (min-width: 768px) {
@@ -143,3 +167,4 @@ footer {
       
     }
 }
+
