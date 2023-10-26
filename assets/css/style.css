@@ -93,7 +93,7 @@ nav {
 
 /*Main Content*/
 main {
-  background-color: rgb(255, 99, 71);
+  background-color: rgb(255, 255, 255);
   /* 
        The CSS property 'flex' with the value 'flex: 1 0 auto;' does the following:
        - 'flex-grow: 1' allows the item to grow and expand to fill available space.
@@ -208,7 +208,20 @@ main {
   padding: 15px;
   border: #fafafa solid 0.5px ;
 
-  
+}
+
+#meetuptimeh2{
+  display: none;
+}
+
+#photos img{
+  width: 100%;
+}
+
+#photos{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 0%;
 }
 
 /*Footer*/
