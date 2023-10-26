@@ -187,8 +187,29 @@ main {
   justify-content: center;
 }
 
+/* times */
+#times{
+  background: url(../images/dublin-city.webp);
+  
+  display: flex;
+  flex-wrap: wrap;
 
+  
+}
 
+#times div{
+
+  
+  color: #fafafa;
+  background-color:rgb(0, 0, 0, .6);
+  flex-basis: 200px;
+  flex-grow: 1;
+  text-align: center;
+  padding: 15px;
+  border: #fafafa solid 0.5px ;
+
+  
+}
 
 /*Footer*/
 footer {
